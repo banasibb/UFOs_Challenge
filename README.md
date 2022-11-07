@@ -44,6 +44,7 @@ let filterId = filter.attr("id");
   buildTable(tableData);
   ```
 <br />The HTML file was updated to include the new filters with the following code: <br />
+ ```
                   <!-- City Filter -->
                   <li class="list-group-item bg-dark">
                   <label for="city">Enter City</label>
