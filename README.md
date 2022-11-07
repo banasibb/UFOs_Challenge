@@ -2,7 +2,7 @@
 Module 11 Challenge assignment
 
 ## Project Overview
-The objective of this assignment was to build a dynamic table that allows users to filter for multiple criteria at the same time. In addition to the date, filters for the city, state, country, and shape of the sighted UFO were added.
+The objective of this module and Challenge assignment was to create a fully dynamic and filterable table using data stored in a JavaScript array and then place the table into an HTML file for easy viewing. The HTML webpage was customized using Bootstrap, and several fully functional filters, including date, city, state, country, and shape of the sighted UFO, were added to allow users to interact with the visualization. 
 ### Resources:
 - Data Sources: [data.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/data.js)
 - Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript, Google Chrome 106.0.5249.121 
@@ -18,6 +18,7 @@ As part of the module coursework (completed prior to the Challenge assignment), 
 ### Deliverable 1: Filter UFO Data Based on Multiple Search Criteria
 Using JavaScript, a new function that saves the element, value, and id of the filter were added to allow multiple search criteria. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result is that the webpage is updated with the search criteria after pressing "Enter".<br />
 <br />The modified starter code can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
+<br />Excerpt of code for additional filter parameters:
  ```
 var filters = {}
 function updateFilters() {
