@@ -5,7 +5,7 @@ Module 11 Challenge assignment
 The objective of this assignment was to build a dynamic table that allows users to filter for multiple criteria at the same time. In addition to the date, filters for the city, state, country, and shape of the sighted UFO were added.
 ### Resources:
 - Data Sources: [data.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/data.js)
-- Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript 
+- Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript, Google Chrome 106.0.5249.121 
 ### Analysis Components:
 As part of the module coursework (completed prior to the Challenge assignment), the following tasks were undertaken to explore how JavaScript can be leveraged to create data visualizations.
 1. Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
@@ -13,7 +13,7 @@ As part of the module coursework (completed prior to the Challenge assignment), 
 3. Build and deploy JavaScript functions, including built-in functions.
 4. Convert JavaScript functions to arrow functions.
 5. Build and deploy forEach (JavaScript for loop).
-6. Create, populate, and dynamically filter a table using JavaScript and HTML
+6. Create, populate, and dynamically filter a table using JavaScript and HTML.
 
 ### Deliverable 1: Filter UFO Data Based on Multiple Search Criteria
 Using JavaScript, a new function that saves the element, value, and id of the filter were added to allow multiple search criteria. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result is that the webpage is updated with the search criteria after pressing "Enter".<br />
@@ -66,11 +66,9 @@ let filterId = filter.attr("id");
                   </li>
                 </ul>
   ```
-
-## Results
-There is a description of how to perform a search, with images. (4 pt)
- The resulting webpage was as follows:<br />
+The resulting webpage was as follows:<br />
 ![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
+## Results
 To search the data, the user must enter a value for at least one search field located on the left, followed by pressing "enter." The data will automatically filter to reflect the results:
 ![filtered_data](https://github.com/banasibb/UFOs_Challenge/blob/31c9fdafbdf527e69e22dfb1c36e0ab342f66c11/Resources/filtered%20search.png)
 ## Summary
