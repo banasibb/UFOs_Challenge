@@ -5,7 +5,7 @@ Module 11 Challenge assignment
 The objective of this assignment was to build a dynamic table that allows users to filter for multiple criteria at the same time. In addition to the date, filters for the city, state, country, and shape of the sighted UFO were added.
 ### Resources:
 - Data Sources: [data.js](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/hawaii.sqlite)
-- Software: Microsoft Virtual Studio Code 1.71.1
+- Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript 
 ### Analysis Components:
 As part of the module coursework (completed prior to the challenge assignment), the following tasks were undertaken to filter the data and create the webpage:
 1. Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
