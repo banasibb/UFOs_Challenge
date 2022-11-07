@@ -70,7 +70,7 @@ let filterId = filter.attr("id");
                   </li>
   ```
 Here is an excerpt of the webpage:<br />
-![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
+![excerpt_page](https://github.com/banasibb/UFOs_Challenge/blob/588341bed3f1266264887c8013396da308131160/Resources/excerpted_page.png)
 ## Results
 To search the data, the user must enter a value for at least one search field located on the left, followed by pressing "enter." The data will automatically filter to reflect the results:
 ![filtered_data](https://github.com/banasibb/UFOs_Challenge/blob/31c9fdafbdf527e69e22dfb1c36e0ab342f66c11/Resources/filtered%20search.png)
