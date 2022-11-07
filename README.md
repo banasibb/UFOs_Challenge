@@ -67,8 +67,8 @@ There is a description of how to perform a search, with images. (4 pt)
 To search the data, the user must enter a value for at least one search field located on the left, followed by pressing "enter." The data will automatically filter to reflect the results:
 ![filtered_data](https://github.com/banasibb/UFOs_Challenge/blob/31c9fdafbdf527e69e22dfb1c36e0ab342f66c11/Resources/filtered%20search.png)
 ## Summary:
-### Opportunity to Improve Webpage
-The page, in its current state, will now allow a user to scroll to view all results. 
+### Limitations of Webpage
+The page, in its current state, will now allow a user to scroll to view all results. There is no summary data or any visual cues to indicate the volume of information the end user is able to search.
 ### Further Development
 My primary recommendation is to improve the usability of the search fields by making them drop-down menus in place of text fields. This will ensure that the user is selecting the correct acronym for state or country, in addition to informing the user as to what shape options are available. <br />
 <br /> A second opportunity for improvement would be to include a button to export the results to a CSV file, should the user wish to reference the specific output of their search criteria later, without having to recreate the specifications entered in the filter fields. 
