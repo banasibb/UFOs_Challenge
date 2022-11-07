@@ -7,8 +7,8 @@ The objective of this assignment was to build a dynamic table that allows users 
 - Data Sources: [data.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/data.js)
 - Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript, Google Chrome 106.0.5249.121 
 ### Analysis Components:
-As part of the module coursework (completed prior to the Challenge assignment), the following tasks were undertaken to explore how JavaScript can be leveraged to create data visualizations.
-1. Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
+As part of the module coursework (completed prior to the Challenge assignment), the following tasks were undertaken to explore how JavaScript can be leveraged to create data visualizations:
+1. Learn the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
 2. Describe JavaScript syntax and ideal use cases.
 3. Build and deploy JavaScript functions, including built-in functions.
 4. Convert JavaScript functions to arrow functions.
@@ -81,6 +81,3 @@ My primary recommendation is to improve the usability of the search fields by ma
 ### Further Development
 The page could be improved upon if it included summary data on the volume of information the end user is able to search. This could be further enhanced if the data could be viewed in separate tabs where it is sorted by city, state, country and other parameters.<br />
 <br /> A second opportunity for improvement would be to include a button to export the results to a CSV file, should the user wish to reference the specific output of their search criteria later, without having to recreate the specifications entered in the filter fields. 
-
-
-
