@@ -64,6 +64,8 @@ let filterId = filter.attr("id");
 There is a description of how to perform a search, with images. (4 pt)
  The resulting webpage was as follows:<br />
 ![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
+To search the data, the user must enter a value for at least one search field located on the left, followed by pressing "enter." The data will automatically filter to reflect the results:
+[filtered_data](https://github.com/banasibb/UFOs_Challenge/blob/31c9fdafbdf527e69e22dfb1c36e0ab342f66c11/Resources/filtered%20search.png)
 ## Summary:
 
 The summary addresses one drawback of this webpage (2 pt)
