@@ -68,7 +68,7 @@ let filterId = filter.attr("id");
                 </ul>
   ```
 The resulting webpage was as follows:<br />
-![UFO_challenge](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/Resources/June_Summary_Stats.png)
+![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
 
 ### Findings
 - There were 1,700 measurements taken for the month of June, compared to 1,517 for the month of December. 
