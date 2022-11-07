@@ -16,7 +16,7 @@ As part of the module coursework (completed prior to the Challenge assignment), 
 6. Create, populate, and dynamically filter a table using JavaScript and HTML.
 
 ### Deliverable 1: Filter UFO Data Based on Multiple Search Criteria
-Using JavaScript, a new function that saves the element, value, and id of the filter were added to allow multiple search criteria. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result is that the webpage is updated with the search criteria after pressing "Enter".<br />
+Using JavaScript, a new function that saves the element, value, and id of the filter were added to allow multiple search criteria. A new function to loop through the dataset and keep only the results that match the search criteria was also added. The result is that the webpage is updated with the search criteria after pressing "Enter".<br />
 <br />The modified starter code can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
 <br />Excerpt of code for additional filter parameters:
  ```
