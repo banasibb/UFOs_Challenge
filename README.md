@@ -15,7 +15,7 @@ As part of the module coursework (completed prior to the challenge assignment), 
 5. Build and deploy forEach (JavaScript for loop).
 6. Create, populate, and dynamically filter a table using JavaScript and HTML.
 ## Results
-The analysis can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
+The modified starter code can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
 ### Filter UFO sightings on multiple criteria
 Using JavaScript, a new function that saves the element, value, and id of the filter was added. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result should be that the webpage is updated with the search criteria after pressing "Enter".<br />
 <br />The code used to establish the new filters in the app.js file was as follows: <br />
