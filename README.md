@@ -16,8 +16,8 @@ As part of the module coursework (completed prior to the challenge assignment), 
 6. Create, populate, and dynamically filter a table using JavaScript and HTML.
 ## Results
 The analysis can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
-### Deliverable 1: Summary Statistics for June
-Using JavaScript, a new function that saves the element, value, and id of the filter was added. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The webpage is updated with the search criteria after pressing "Enter".<br />
+### Filter UFO sightings on multiple criteria
+Using JavaScript, a new function that saves the element, value, and id of the filter was added. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result should be that the webpage is updated with the search criteria after pressing "Enter".<br />
 <br />The code used to establish the new filters in the app.js file was as follows: <br />
  ```
 var filters = {}
@@ -43,16 +43,32 @@ let filterId = filter.attr("id");
   d3.selectAll("input").on("change", updateFilters);
   buildTable(tableData);
   ```
-A .describe() function was used to calculate the mean, minimum, maximum, standard deviation, and percentiles. The results were as follows:<br />
-![June_Temps](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/Resources/June_Summary_Stats.png)
-### Deliverable 2: Summary Statistics for December
-The same methods were applied as for Deliverable 1, but using the temperatures for the month of December. The temperatures were then converted to a list, a DataFrame was created from the list, and summary statistics were generated.<br />
-<br />The code used to filter on the month of December was as follows: <br />
- ```
-dec = session.query(Measurement.date, Measurement.tobs).filter(extract('month',Measurement.date) ==12)
+<br />The HTML file was updated to include the new filters with the following code: <br />
+                  <!-- City Filter -->
+                  <li class="list-group-item bg-dark">
+                  <label for="city">Enter City</label>
+                  <input type="text" id="city" />
+                  </li>
+                  <!-- State Filter -->
+                  <li class="list-group-item bg-dark">
+                  <label for="state">Enter State</label>
+                  <input type="text" id="state" />
+                  </li>
+                  <!-- Country Filter -->
+                  <li class="list-group-item bg-dark">
+                  <label for="country">Enter Country</label>
+                  <input type="text" id="country" />
+                  </li>
+                  <!-- Shape Filter -->
+                  <li class="list-group-item bg-dark">
+                  <label for="shape">Enter Shape</label>
+                  <input type="text" id="shape" />
+                  </li>
+                </ul>
   ```
-A .describe() function was used to calculate the mean, minimum, maximum, standard deviation, and percentiles. The results were as follows:<br />
-![Dec_Temps](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/Resources/Dec_Summary_Stats.png)
+The resulting webpage was as follows:<br />
+![UFO_challenge](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/Resources/June_Summary_Stats.png)
+
 ### Findings
 - There were 1,700 measurements taken for the month of June, compared to 1,517 for the month of December. 
 - The mean or average temperature in the month of June over the time period included in the analysis was approximately 74 degrees, compared to 71 degrees in December. 
