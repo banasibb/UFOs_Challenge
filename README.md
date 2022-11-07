@@ -76,7 +76,8 @@ To search the data, the user must enter a value for at least one search field lo
 ![filtered_data](https://github.com/banasibb/UFOs_Challenge/blob/31c9fdafbdf527e69e22dfb1c36e0ab342f66c11/Resources/filtered%20search.png)
 ## Summary
 ### Limitations of Webpage
-My primary recommendation is to improve the usability of the search fields by making them drop-down menus in place of text fields. This will ensure that the user is selecting the correct acronym for state or country, in addition to informing the user as to what shape options are available.
+My primary recommendation is to improve the usability of the search fields by making them drop-down menus in place of text fields. This will ensure that the user is selecting the correct acronym for state or country, in addition to informing the user as to what shape options are available. <br />
+<br /> By adding the option to search for a range of dates, this might also significantly improve the usability of the page.
 ### Further Development
 The page could be improved upon if it included summary data on the volume of information the end user is able to search. This could be further enhanced if the data could be viewed in separate tabs where it is sorted by city, state, country and other parameters.<br />
 <br /> A second opportunity for improvement would be to include a button to export the results to a CSV file, should the user wish to reference the specific output of their search criteria later, without having to recreate the specifications entered in the filter fields. 
