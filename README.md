@@ -7,10 +7,11 @@ The objective of this assignment was to build a dynamic table that allows users 
 - Data Sources: [data.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/data.js)
 - Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript 
 ### Analysis Components:
+
+
+### Filter UFO sightings on multiple criteria
 Using JavaScript, a new function that saves the element, value, and id of the filter was added. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The result is that the webpage is updated with the search criteria after pressing "Enter".<br />
 <br />The modified starter code can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
-### Filter UFO sightings on multiple criteria
-The code used to establish the new filters in the [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js) file was as follows: <br />
  ```
 var filters = {}
 function updateFilters() {
@@ -70,7 +71,7 @@ To search the data, the user must enter a value for at least one search field lo
 ### Limitations of Webpage
 My primary recommendation is to improve the usability of the search fields by making them drop-down menus in place of text fields. This will ensure that the user is selecting the correct acronym for state or country, in addition to informing the user as to what shape options are available.
 ### Further Development
-The page could be improved upon if it included summary data on the volume of information the end user is able to search.<br />
+The page could be improved upon if it included summary data on the volume of information the end user is able to search. This could be further enhanced if the data could be viewed in separate tabs where it is sorted by city, state, country and other parameters.<br />
 <br /> A second opportunity for improvement would be to include a button to export the results to a CSV file, should the user wish to reference the specific output of their search criteria later, without having to recreate the specifications entered in the filter fields. 
 
 
