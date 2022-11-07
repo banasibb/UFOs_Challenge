@@ -44,7 +44,11 @@ let filterId = filter.attr("id");
   ```
 <br />The HTML file ([index.html](https://github.com/banasibb/UFOs_Challenge/blob/9e1e3a2e5986da6396f3778e327877c73c2dfa95/index.html) was updated to include the new filters with the following code: <br />
  ```
-                  <!-- City Filter -->
+                  <!-- Date Filter -->
+                  <li class="list-group-item bg-dark">
+                  <label for="date">Enter Date</label>
+                  <input type="text" placeholder="1/10/2010" id="datetime" />
+                  </li><!-- City Filter -->
                   <li class="list-group-item bg-dark">
                   <label for="city">Enter City</label>
                   <input type="text" id="city" />
@@ -64,7 +68,6 @@ let filterId = filter.attr("id");
                   <label for="shape">Enter Shape</label>
                   <input type="text" id="shape" />
                   </li>
-                </ul>
   ```
 The resulting webpage was as follows:<br />
 ![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
