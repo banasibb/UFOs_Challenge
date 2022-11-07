@@ -4,7 +4,7 @@ Module 11 Challenge assignment
 ## Project Overview
 The objective of this assignment was to build a dynamic table that allows users to filter for multiple criteria at the same time. In addition to the date, filters for the city, state, country, and shape of the sighted UFO were added.
 ### Resources:
-- Data Sources: [data.js](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/hawaii.sqlite)
+- Data Sources: [data.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/data.js)
 - Software: Microsoft Virtual Studio Code 1.71.1, JavaScript, ECMAScript 
 ### Analysis Components:
 As part of the module coursework (completed prior to the challenge assignment), the following tasks were undertaken to filter the data and create the webpage:
@@ -15,12 +15,33 @@ As part of the module coursework (completed prior to the challenge assignment), 
 5. Build and deploy forEach (JavaScript for loop).
 6. Create, populate, and dynamically filter a table using JavaScript and HTML.
 ## Results
-The analysis can be found in the following file: [SurfsUp_Challenge.ipynb](https://github.com/banasibb/surfs_up/blob/79544847a49a8c16ff56379493862b2f54435fce/SurfsUp_Challenge.ipynb)<br />
+The analysis can be found in the following file: [app.js](https://github.com/banasibb/UFOs_Challenge/blob/8a40c0a7152cc80807abc826261c301a0427dc4e/static/js/app.js)<br />
 ### Deliverable 1: Summary Statistics for June
 Using JavaScript, a new function that saves the element, value, and id of the filter was added. Then, a new function to loop through the dataset and keep only the results that match the search criteria was added. The webpage is updated with the search criteria after pressing "Enter".<br />
-<br />The code used to filter on the month of June was as follows: <br />
+<br />The code used to establish the new filters in the app.js file was as follows: <br />
  ```
-june = session.query(Measurement.date, Measurement.tobs).filter(extract('month',Measurement.date) ==6)
+var filters = {}
+function updateFilters() {
+let filter = d3.select(this);
+let filteredValue = filter.property("value");
+let filterId = filter.attr("id");
+ if (filteredValue) {
+  filters[filterId] = filteredValue;
+ }
+ else {
+  delete filters[filterId];
+ }
+    filterTable();
+  }
+    let filteredData = tableData;
+    Object.entries(filters).forEach(([key, value]) => {
+      filteredData = filteredData.filter(row => row[key] === value);
+    });
+
+    buildTable(filteredData);
+  }
+  d3.selectAll("input").on("change", updateFilters);
+  buildTable(tableData);
   ```
 A .describe() function was used to calculate the mean, minimum, maximum, standard deviation, and percentiles. The results were as follows:<br />
 ![June_Temps](https://github.com/banasibb/surfs_up/blob/7ffb5581e784e225a4126853e1fe9df2e37737af/Resources/June_Summary_Stats.png)
