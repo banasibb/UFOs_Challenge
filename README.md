@@ -43,7 +43,7 @@ let filterId = filter.attr("id");
   d3.selectAll("input").on("change", updateFilters);
   buildTable(tableData);
   ```
-<br />The HTML file ([index.html](https://github.com/banasibb/UFOs_Challenge/blob/9e1e3a2e5986da6396f3778e327877c73c2dfa95/index.html) was updated to include the new filters with the following code: <br />
+<br />The HTML file ([index.html](https://github.com/banasibb/UFOs_Challenge/blob/9e1e3a2e5986da6396f3778e327877c73c2dfa95/index.html)) was updated to include the new filters with the following code: <br />
  ```
                   <!-- Date Filter -->
                   <li class="list-group-item bg-dark">
