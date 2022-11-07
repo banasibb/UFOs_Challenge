@@ -69,7 +69,7 @@ let filterId = filter.attr("id");
                   <input type="text" id="shape" />
                   </li>
   ```
-The resulting webpage was as follows:<br />
+Here is an excerpt of the webpage:<br />
 ![UFO_challenge](https://github.com/banasibb/UFOs_Challenge/blob/bb45cbf9bd502a46c1ee9efd3aaa2a84bbb6e312/Resources/Screenshot%202022-11-07%20162307.png)
 ## Results
 To search the data, the user must enter a value for at least one search field located on the left, followed by pressing "enter." The data will automatically filter to reflect the results:
